@@ -1,0 +1,450 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #eaf4ff;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 0 10px;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+   
+}
+
+
+/*ナビ*/
+
+#nav_main ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border-bottom: 6px solid;
+    border-image: linear-gradient(to right,#F55555 0%, #F944D3 20%, #9F7794 50%, #F89174 80%, #32CCBC 100%);
+    border-image-slice: 1;
+    padding: 0;
+    margin: 0;
+}
+
+#nav_main ul li {
+    width:20%;
+    border-right: solid gray 1px;
+    text-align: center;
+    
+}
+
+
+
+#nav_main ul li a {
+    text-decoration: none;
+    display: block;
+    color: blue;
+    
+}
+
+#nav_main ul li a:hover{
+    background-color: lightskyblue;
+}
+
+
+/*トップに戻る*/
+.gotop {
+	bottom: 20px;
+	right: 20px;
+	position: fixed;
+	z-index: 100;
+}
+
+.gotop img {
+	width: 50px;
+	height: auto;
+}
+
+
+
+
+/*footer*/
+footer {
+    background-color:#fffcf9;
+    width: 100%;
+}
+
+#wrap {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /*    background-color:darkseagreen;*/
+    display: flex;
+    justify-content: space-around;
+    line-height: 18px;
+}
+
+.adress {
+    padding: 20px;
+    margin-left: -30px;
+    color: black;
+}
+
+#f_nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#f_nav ul {
+    margin: 50px;
+    padding: 0;
+    
+}
+
+#f_nav ul li {
+    list-style-type: none;
+    height: 2.5em;
+    line-height: 2.5em;
+    font-size: 1em;
+}
+
+#f_nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#f_nav ul li a:hover{
+    background-color: #ffeddb;
+}
+
+/*snsボタン*/
+.sns {
+    padding: 20px;
+}
+
+.sns ul {
+    display: flex;
+    margin-right: 0;
+    padding: 0;
+}
+
+.sns ul li {
+    list-style-type: none;
+    margin-right: 0;
+    padding: 0;
+}
+
+i {
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.my-blue {
+    color: #3B5998;
+}
+
+.my-skyblue {
+    color: #55acee;
+}
+
+.my-pink {
+    color: #fff;
+    background: radial-gradient(at 20% 120%, orange, #f15a4d 25%, #f13f79 55%, #9933ff 100%) no-repeat;
+    border-radius: 10%;
+    padding: 0;
+    margin: 0;
+}
+
+.my-green {
+    color: green;
+    padding-left: 10px;
+}
+
+
+/*コピーライト*/
+#copylight {
+    text-align: center;
+    color: black;
+    background-color:#fffcf9;
+}
+
+#copylight p {
+    margin: 0;
+}
+
+
+
+
+/*contact　メイン*/
+#main-contact {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 100px;
+    display: block;
+}
+
+/*　タイトル　*/
+.ttl-en {
+	color: darkorange;
+	margin: 0 auto;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+p.ttl-ja {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+	position: relative;
+	padding: 0 0 14px;
+}
+
+p.ttl-ja::after {
+	margin: 0 auto;
+	text-align: center;
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100px;
+	border-bottom: 3px solid #eaf4ff;
+}
+
+p.text-margin-1 {
+	margin-bottom: 40px;
+	font-size: 1em;
+}
+
+/*タイトル画像*/
+.ttl-img {
+	margin: 0;
+}
+
+.ttl-img img {
+	width: 300px;
+	margin: 0 auto;
+	display: block;
+}
+
+/*　よくあるご質問 */
+.sec-qa {
+	margin-bottom: 40px;
+}
+
+div.qa-list {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.qa-list dl {
+	position: relative;
+	margin: 15px 0 0;
+	cursor: pointer;
+	border: 1px solid #DDD;
+}
+
+.qa-list dl:first-child {
+	margin-top: 0;
+}
+
+.qa-list dl::after {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	display: block;
+	width: 6px;
+	height: 6px;
+	margin: auto;
+	content: '';
+	transform: rotate(135deg);
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+.qa-list .open::after {
+	transform: rotate(-45deg);
+}
+
+.qa-list dl dt {
+	position: relative;
+	margin: 0;
+	padding: 10px 10px 10px 30px;
+	font-weight: bold;
+	background: #DDD;
+}
+
+.qa-list dl dt::before {
+	font-size: 20px;
+	line-height: 1;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: block;
+	content: 'Q.';
+	color: #eaf4ff;
+}
+
+.qa-list dl dd::before {
+	font-size: 20px;
+	line-height: 1;
+	position: absolute;
+	left: 20px;
+	display: block;
+	content: 'A.';
+	font-weight: bold;
+	color: #f00;
+}
+
+.qa-list dl dd {
+	position: relative;
+	margin: 0;
+	padding: 15px 15px 15px 15px;
+}
+
+.qa-list dl dd p {
+	margin: 30px 0 0;
+}
+
+.qa-list dl dd p:first-child {
+	margin-top: 0;
+}
+
+/*　お問い合わせ　*/
+.contact-wrap {
+	margin: 0 auto 100px;
+	width: 80%;
+}
+
+.box-contact-tel,
+.box-contact-mail {
+	width: 60%;
+	margin: 0 auto 20px;
+	padding: 30px 26px 30px 26px;
+	border: 2px solid orange;
+}
+
+.ttl-contact {
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+
+.box-contact-tel .company {
+	font-size: 1.2em;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.ttl-contact::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	margin-top: 10px;
+	background: orange;
+}
+
+.box-contact-tel p {
+	font-size: 1.5em;
+}
+
+.box-contact-tel i {
+	font-size: 1.5em;
+	color: darkorange;
+	margin-bottom: 5px;
+}
+
+.fs {
+	font-size: 1em;
+	font-weight: 600;
+	letter-spacing: 0.3em;
+}
+
+/* 問い合わせフォーム*/
+.box-contact-mail form p {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.box-contact-mail form p:last-child {
+	margin-top: 20px;
+}
+
+.box-contact-mail input[type="text"] {
+	width: 40%;
+}
+
+.box-contact-mail input[type="email"] {
+	width: 60%;
+}
+
+.box-contact-mail input[type="tel"] {
+	width: 50%;
+}
+
+.box-contact-mail textarea {
+	width: 70%;
+	height: 115px;
+	overflow-y: scroll;
+}
+
+.box-contact-mail .form_buttun {
+	background-color: blue;
+	color: #fff;
+	font-size: 1em;
+	border-radius: 1em;
+	width: 100px;
+	border: none;
+}
+
+.box-contact-mail .form_buttun:hover {
+	opacity: .8;
+	cursor: pointer;
+}
+
+/*　必須　*/
+.must {
+	color: #f00;
+}
+
+.under {
+	background: linear-gradient(transparent 50%, yellow 50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

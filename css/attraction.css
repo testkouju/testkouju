@@ -1,0 +1,449 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #eaf4ff;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 0 10px;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+
+/*ナビ*/
+
+#nav_main ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border-bottom: 6px solid;
+    border-image: linear-gradient(to right, #F55555 0%, #F944D3 20%, #9F7794 50%, #F89174 80%, #32CCBC 100%);
+    border-image-slice: 1;
+    padding: 0;
+    margin: 0;
+}
+
+#nav_main ul li {
+    width: 20%;
+    border-right: solid gray 1px;
+    text-align: center;
+
+}
+
+
+
+#nav_main ul li a {
+    text-decoration: none;
+    display: block;
+    color: blue;
+
+}
+
+#nav_main ul li a:hover {
+    background-color: lightskyblue;
+}
+
+
+/*トップに戻る*/
+.gotop {
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    z-index: 100;
+}
+
+.gotop img {
+    width: 50px;
+    height: auto;
+}
+
+
+
+
+/*footer*/
+footer {
+    background-color: #fffcf9;
+    width: 100%;
+}
+
+#wrap {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /*    background-color:darkseagreen;*/
+    display: flex;
+    justify-content: space-around;
+    line-height: 18px;
+}
+
+.adress {
+    padding: 20px;
+    margin-left: -30px;
+    color: black;
+}
+
+#f_nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#f_nav ul {
+    margin: 50px;
+    padding: 0;
+
+}
+
+#f_nav ul li {
+    list-style-type: none;
+    height: 2.5em;
+    line-height: 2.5em;
+    font-size: 1em;
+}
+
+#f_nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#f_nav ul li a:hover {
+    background-color: #ffeddb;
+}
+
+/*snsボタン*/
+.sns {
+    padding: 20px;
+}
+
+.sns ul {
+    display: flex;
+    margin-right: 0;
+    padding: 0;
+}
+
+.sns ul li {
+    list-style-type: none;
+    margin-right: 0;
+    padding: 0;
+}
+
+i {
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.my-blue {
+    color: #3B5998;
+}
+
+.my-skyblue {
+    color: #55acee;
+}
+
+.my-pink {
+    color: #fff;
+    background: radial-gradient(at 20% 120%, orange, #f15a4d 25%, #f13f79 55%, #9933ff 100%) no-repeat;
+    border-radius: 10%;
+    padding: 0;
+    margin: 0;
+}
+
+.my-green {
+    color: green;
+    padding-left: 10px;
+}
+
+
+/*コピーライト*/
+#copylight {
+    text-align: center;
+    color: black;
+    background-color: #fffcf9;
+}
+
+#copylight p {
+    margin: 0;
+}
+
+
+/*アトラクションCSS*/
+h2 {
+    text-align: center;
+}
+
+/*パンダエリア*/
+
+
+
+#panda {
+    margin-top: 00px;
+    margin-bottom: 100px;
+}
+
+.pandaerea {
+    display: flex;
+    justify-content: center;
+
+}
+
+.pandaerea img {
+    width: auto;
+    height: 300px;
+}
+
+.pandatext {
+    text-align: center;
+}
+
+.pandatext p {
+    font-size: 1em;
+}
+
+.pandatext p a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+
+
+/*マリンワールド*/
+#marineworld {
+    margin-bottom: 100px;
+}
+
+
+
+#marine {
+    display: flex;
+}
+
+.marine_midashi {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.marine_img {
+    display: flex;
+    justify-content: center;
+}
+
+.marine_img img {
+    width: auto;
+    height: 300px;
+}
+
+.marine_text {
+    text-align: center;
+
+}
+
+.marine {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.marine img {
+    width: 300px;
+}
+
+
+table,
+tr,
+th,
+td {
+    width: 200px;
+    border-collapse: collapse;
+    border: 2px solid orange;
+    column-gap: normal;
+    font-size: 1em;
+    background-color: #ffffff;
+    /*    background-image: linear-gradient(40deg, #fce043 0%, #fb7ba2 74%);*/
+}
+
+.table2 {
+    width: 300px;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    column-gap: normal;
+    font-size: 1em;
+}
+
+.marineanimal {
+    text-align: center;
+}
+
+.marineanimal p a {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+/*ワールドサファリ*/
+.safari {
+    text-align: center;
+}
+
+.safari img {
+    width: 1200px;
+    height: auto;
+}
+
+#plan img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.rankuru,
+.cart,
+.cycling,
+.walking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.goanimal a{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+
+
+
+
+
+#plan {
+    display: flex;
+    /*    justify-content:space-evenly;*/
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#worldsafari {
+    margin-bottom: 100px;
+}
+
+/*ふれあい*/
+#fureai {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#fureai img {
+    width: 800px;
+}
+.goanimal a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+
+
+
+
+/*プレイゾーン*/
+#playzone {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+#playzone img {
+    width: 800px;
+    height: auto;
+}
+
+#play {
+    margin-bottom: 50px;
+}
+
+#kind{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#kind figure img {
+    width: 300px;
+    height: auto;
+
+}
+
+
+
+
+/*イベント*/
+#event {
+    display: flex;
+    justify-content: center;
+}
+
+#event img {
+    width: 400px;
+    height: auto;
+}
+
+#text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*スケジュール*/
+
+#scejule {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+#scejule table {
+    text-align: center;
+    line-height: 50px;
+}
+
+
+/*サブナビ*/
+#sub_nav{
+    position: sticky;
+/*    height: 120px;*/
+    left: 0;
+    top:0px;
+    display: none;
+}
+#sub_nav ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#sub_nav ul li{
+    list-style-type: none;
+}
+#sub_nav ul li a{
+    text-decoration: none;
+}
+
+#sub_nav ul li img{
+    width:100px;
+    height: auto;
+    border-radius: 50% 50% 50% 50%;
+}
+/*
+
+#main_c{
+    display:flex;
+}*/
