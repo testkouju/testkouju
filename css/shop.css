@@ -267,20 +267,27 @@ i {
 }
 
 #sub_nav ul li img{
-    width: 50px;
+    width: 45px;
    
 }
 
 #sub_nav ul li{
     list-style-type: none;
-    
+    width: 200px;
 }
 #sub_nav ul li a{
     text-decoration: none;
+    width: 200px;
+    
 }
 input[type="number"] {
 	width: 50px;
 }
+
+#sub_nav ul li a:hover{
+    background-color:darkorange;
+}
+
 
 
 

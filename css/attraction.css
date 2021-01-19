@@ -187,6 +187,13 @@ h2 {
 #panda {
     margin-top: 00px;
     margin-bottom: 100px;
+    padding: 1.65rem 2rem;
+  color: #22ac38;
+  background-color: transparent;
+  background-image: linear-gradient(45deg, #dfeeb9 25%, transparent 25%, transparent 75%, #dfeeb9 75%, #dfeeb9),
+    linear-gradient(-45deg, #dfeeb9 25%, transparent 25%, transparent 75%, #dfeeb9 75%, #dfeeb9);
+  background-size: 24px 24px;
+}
 }
 
 .pandaerea {
@@ -218,6 +225,8 @@ h2 {
 /*マリンワールド*/
 #marineworld {
     margin-bottom: 100px;
+    background: rgb(47,176,79);
+background: linear-gradient(0deg, rgba(47,176,79,0) 0%, rgba(1,86,219,0.6561975131849616) 100%);
 }
 
 
@@ -240,8 +249,8 @@ h2 {
 }
 
 .marine_img img {
-    width: auto;
-    height: 300px;
+    width: 350px;
+    height: auto;
 }
 
 .marine_text {
@@ -251,12 +260,13 @@ h2 {
 
 .marine {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
     align-items: center;
 }
 
 .marine img {
     width: 300px;
+    height: 300px;
 }
 
 
@@ -336,12 +346,14 @@ td {
 
 #worldsafari {
     margin-bottom: 100px;
+    
 }
 
 /*ふれあい*/
 #fureai {
     text-align: center;
-    margin-bottom: 50px;
+  
+
 }
 
 #fureai img {
@@ -380,7 +392,7 @@ td {
 
 #kind figure img {
     width: 300px;
-    height: auto;
+    height: 225px;
 
 }
 
@@ -394,7 +406,7 @@ td {
 }
 
 #event img {
-    width: 400px;
+    width: 450px;
     height: auto;
 }
 
