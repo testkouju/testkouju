@@ -194,13 +194,13 @@ h2 {
     linear-gradient(-45deg, #dfeeb9 25%, transparent 25%, transparent 75%, #dfeeb9 75%, #dfeeb9);
   background-size: 24px 24px;
 }
-}
 
-.pandaerea {
+.pandaerea{
     display: flex;
     justify-content: center;
-
 }
+
+
 
 .pandaerea img {
     width: auto;
