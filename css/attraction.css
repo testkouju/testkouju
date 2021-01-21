@@ -324,7 +324,6 @@ td {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .goanimal a{
@@ -332,10 +331,6 @@ td {
     background-color: blue;
     text-decoration: none;
 }
-
-
-
-
 
 #plan {
     display: flex;

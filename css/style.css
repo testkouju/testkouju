@@ -344,16 +344,19 @@ figure img {
 #panda_topic {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 1.3em;
     font-weight: 300;
     color: #0F1A45;
-
 }
 
+
+
+
 #panda_topic figure {
-    display: flex;
+/*    display: flex;*/
+    flex: 0 1 300px;
 }
 
 #panda_topic figure a img {
@@ -410,6 +413,10 @@ figure img {
 
 
 /*お店・レストラン*/
+h3{
+    text-align: center;
+}
+
 .resutrant {
     width: 300px;
     height: auto;
@@ -421,7 +428,7 @@ figure img {
     justify-content: center;
 }
 #shop{
-/*     background-image: url(/img/back2.jpg);*/ 
+/*     background-image: url(../img/back2.jpg); */
 }
 
 
@@ -457,7 +464,7 @@ figure img {
 }
 
 #parkguide{
-    background-image: url(/img/back2.jpg);
+    background-image: url(../img/back2.jpg);
 }
 
 

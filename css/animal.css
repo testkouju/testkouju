@@ -183,6 +183,8 @@ i {
 
 h2 {
     text-align: center;
+    margin: 0;
+    margin-top: 50px;
 }
 
 .panda {
@@ -190,6 +192,10 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
+}
+
+.panda figure{
+    flex: 1 0 300px;
 }
 
 .panda figure img {
@@ -230,7 +236,9 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
-    
+    padding: 1em 1.5em;
+    background: -webkit-repeating-linear-gradient(-45deg, #ffe5ff, #ffe5ff 5px, #ffffff 5px, #ffffff 10px);/*ストライプ*/
+    background: repeating-linear-gradient(-45deg, #ffe5ff, #ffe5ff 5px, #ffffff 5px, #ffffff 10px);/*ストライプ*/
 }
 
 .fureai figure img {
